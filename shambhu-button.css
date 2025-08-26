@@ -9,7 +9,7 @@ body {
   width: 100%;
   padding: 10px;
   font-size: 19px;
-  margin: 35px auto;
+  margin: 30px auto;
   display: none; /* Sab hidden by default */
   box-sizing: border-box;
 }
@@ -28,6 +28,7 @@ body {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -38,13 +39,13 @@ body {
 .custom-box {
   background-color: #ff7f00;
   color: white;
-  padding: 2px 20px;
-  font-size: 16px;
+  padding: 2px 18px;
+  font-size: 17px;
   font-weight: bold;
   display: inline-block;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-  margin: 2px auto;
+  margin: 1px auto;
   
 }
 
@@ -56,7 +57,7 @@ body {
 #loadMoreBtn {
   background-color: #006666;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
   border: none;
   padding: 10px 20px;
