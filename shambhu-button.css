@@ -1,75 +1,73 @@
- .test-box {
-      background-color: #f2f2f2;
-      width: 100%;  
-      padding: 10px;
-  
-      margin: 40px auto;
-    }
+.test-box {
+  background-color: #f2f2f2;
+  width: 100%;  
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  margin: 40px auto;
+}
 
-    .test-box h2 {
-      line-height: 30px;
-      text-align: left;
-      margin: 0px 0 10px 0;
-      font-size: 19px;
-      font-weight: bold;
-      color: #000000;
-    }
+.test-box h2 {
+  line-height: 30px;
+  text-align: left;
+  margin: 0px 0 10px 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}
 
-    /* Updated button styling */
-    .test-box button {
-      background-color: #000;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 1px;
-      cursor: pointer;
-      font-size: 16px;
-    }
+.test-box button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    .test-box button:hover {
-      background-color: #153eaa;
-    }
+.test-box button:hover {
+  background-color: #153eaa;
+}
 
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 
-    .load-more-btn-container {
-      text-align: center; 
-      margin-top: 20px;
-    }
+.load-more-btn-container {
+  text-align: center; 
+  margin-top: 20px;
+}
 
-    .hidden-box {
-      display: none;
-    }
+.hidden-box {
+  display: none;
+}
 
-    .custom-box {
-      background-color: #ff7f00;
-      color: white;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      display: inline-block;
-      position: relative;
-      clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-      margin: 20px auto;
-    }
+.custom-box {
+  background-color: #ff7f00;
+  color: white;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  margin: 20px auto;
+}
 
-    /* Style for the Load More button */
-    #loadMoreBtn {
-        background-color: #006666;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+#loadMoreBtn {
+    background-color: #006666;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-    #loadMoreBtn:hover {
-      background-color: #e06d00;
-    }
+#loadMoreBtn:hover {
+  background-color: #e06d00;
+}
