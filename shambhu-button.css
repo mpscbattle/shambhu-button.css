@@ -1,49 +1,52 @@
-.test-box {
-  background-color: #e6ffff;
-  width: 100%;  
-  padding: 10px;
-  margin: 40px auto;
-}
-
-.test-box h2 {
-  line-height: 30px;
-  text-align: left;
-  margin: 0px 0 10px 0;
-  font-size: 17px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.test-box button {
-  background-color: #000;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 1px;
-  cursor: pointer;
-  font-size: 16px;
-font-weight: bold;
-}
-
-.test-box button:hover {
-  background-color: #ff6600;
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+}
+
+.test-box {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 15px;
+}
+
+.test-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.test-box button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.test-box button:hover {
+  background-color: #ff6600;
 }
 
 .load-more-btn-container {
-  text-align: center; 
-  margin-top: 20px;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 8px 15px;
+  background: #006666;
+  color: #fff;
   font-size: 16px;
-font-weight: bold;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Naya CSS rule: Boxes ko chhipane ke liye */
-.hidden-box {
+.hidden {
   display: none;
 }
