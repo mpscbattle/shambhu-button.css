@@ -9,14 +9,14 @@ body {
   width: 100%;
   padding: 10px;
   font-size: 19px;
-  margin: 30px auto;
+  margin: 35px auto;
   display: none; /* Sab hidden by default */
   box-sizing: border-box;
 }
 
 .test-box h2 {
   margin: 0 0 10px 0;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 30px;
   color: #000;
@@ -38,13 +38,13 @@ body {
 .custom-box {
   background-color: #ff7f00;
   color: white;
-  padding: 5px 20px;
-  font-size: 17px;
+  padding: 2px 20px;
+  font-size: 16px;
   font-weight: bold;
   display: inline-block;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-  
+  margin: 2px auto;
   
 }
 
