@@ -60,6 +60,8 @@ body {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   margin: 1px auto;
+    text-align: left;   /* left side pe le aayega */
+    display: block;     /* ensure block element hai */
 }
 
 .load-more-btn-container {
